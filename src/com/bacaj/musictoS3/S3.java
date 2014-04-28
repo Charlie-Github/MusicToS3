@@ -33,8 +33,8 @@ public class S3 {
 
 	private static AmazonS3 mS3 = null;
 	private static ObjectListing objListing = null;
-	public static final String BUCKET_NAME = "_bucket_name";
-	public static final String OBJECT_NAME = "_object_name";
+	public static final String BUCKET_NAME = "_bucket_name";//original:_bucket_name
+	public static final String OBJECT_NAME = "_object_name";//original:_object_name
 	public static BasicAWSCredentials mCredentials;
 	private static String TAG_NAME = "S3";
 
